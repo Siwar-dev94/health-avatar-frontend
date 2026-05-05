@@ -51,7 +51,7 @@ export default function App() {
     setIsLoading(true);
     isLoadingRef.current = true;
     try {
-      const res = await fetch("https://health-avatar-backend.onrender.com/api/chat", {
+      const res = await fetch("https://health-avatar-backend-2.onrender.com/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
